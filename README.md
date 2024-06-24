@@ -1,4 +1,4 @@
-# Heap Scraping starter
+# Scraping Heaps starter
 
 This repository contains the basic prerequisites for getting started with a (headfull) Puppeteer Heap Snapshot instance (Ubuntu + Node + Chromium).
 
