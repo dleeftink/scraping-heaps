@@ -1,3 +1,5 @@
+// props of interest /*"display_name"/*"likes"/*"feedItem"/*"entityPageName"/*"links","comments"/*"images","currentSrc","srcSet","thumbnail_src","lowsrc","thumbnailSrc","src"*/
+
 const puppeteer = require('puppeteer-extra');
 const phs = require('puppeteer-heap-snapshot');
 const fs = require('fs');
