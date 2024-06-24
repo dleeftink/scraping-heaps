@@ -4,7 +4,7 @@
         "target_repo": "https://github.com/dleeftink/scraping-heaps.git",
         "source_file": "https://raw.githubusercontent.com/dleeftink/scraping-heaps/main/.devcontainer/setup.sh",
     },
-    "onCreateCommand": "echo 'Please wait for installation...'",
+    "onCreateCommand": "echo 'Please wait for installation...' | sudo tee /usr/local/etc/vscode-dev-containers/first-run-notice.txt",
     "updateContentCommand": "wget -P .devcontainer \"$source_file\" -nc && chmod +x .devcontainer/*.sh",
     "postCreateCommand": ".devcontainer/setup.sh",
     "postAttachCommand": {
