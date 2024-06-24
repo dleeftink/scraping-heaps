@@ -8,6 +8,6 @@
     "updateContentCommand": "wget -P .devcontainer \"$source_file\" -nc && chmod +x .devcontainer/*.sh",
     "postCreateCommand": ".devcontainer/setup.sh",
     "postAttachCommand": {
-        "init": "npm install && npx puppeteer-heap-snapshot query --url https://www.youtube.com/watch?v=L_o_O7v1ews --properties channelId,viewCount,keywords --no-headless"
+        "init": "npx puppeteer-heap-snapshot query --url https://www.youtube.com/watch?v=L_o_O7v1ews --properties channelId,viewCount,keywords --no-headless"
     }
 }

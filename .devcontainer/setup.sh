@@ -68,5 +68,8 @@ else
     echo "D-Bus is running."
 fi
 
+# Installing package dependencies
+echo "Installing node packages..."
+ npm install
+
 echo "Installation and setup completed successfully."
-exec bash
